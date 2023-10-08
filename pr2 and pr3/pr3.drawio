@@ -1,186 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T12:13:12.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="Lal7t_u3MhxUmVhelzh7" version="22.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-10-08T20:52:44.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0 (Edition Yx GX)" etag="xpDnih4GjT_UtQVswAHX" version="22.0.4" type="github" pages="6">
   <diagram id="VXlM-bsB_AVG7MEr2hlG" name="вариант 2 задание 2">
-    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="reueQ8cb_fLAAA-9Xz1p-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="reueQ8cb_fLAAA-9Xz1p-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="reueQ8cb_fLAAA-9Xz1p-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="reueQ8cb_fLAAA-9Xz1p-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="69" y="60" width="690" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="вариант 2 задание 4" id="9o4zZcfQ91pKXa2OtvQn">
-    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-1" target="a9y83N7HcUyt1v9G3GOW-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="350" y="134" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-2" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="350" y="744" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-3" target="a9y83N7HcUyt1v9G3GOW-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-3" value="Ввод: n" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="214" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-4" target="a9y83N7HcUyt1v9G3GOW-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-4" value="a = n % 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="294" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-5" target="a9y83N7HcUyt1v9G3GOW-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-5" target="a9y83N7HcUyt1v9G3GOW-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-5" value="a = 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="374" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-9" target="a9y83N7HcUyt1v9G3GOW-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-9" value="n = n / 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="474" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-10" target="a9y83N7HcUyt1v9G3GOW-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-10" value="n = n * 3 + 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="474" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-13" target="a9y83N7HcUyt1v9G3GOW-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-13" target="a9y83N7HcUyt1v9G3GOW-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-13" value="n = 1" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="604" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="a9y83N7HcUyt1v9G3GOW-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="584" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="530" y="744" />
-              <mxPoint x="630" y="744" />
-              <mxPoint x="630" y="584" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-18" value="n = n - 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="669" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-22" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="370" y="684" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-23" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="310" y="384" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-24" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="470" y="384" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-25" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="470" y="614" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-26" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="360" y="120" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-27" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="364" y="199" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-28" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="364" y="280" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-29" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="360" y="382" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-30" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="230" y="459" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-31" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="470" y="460" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-32" value="7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="360" y="612" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-33" value="8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="470" y="654" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="a9y83N7HcUyt1v9G3GOW-34" value="9" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="364" y="729" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="O88mnx28sJoSBirv_F2C-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="O88mnx28sJoSBirv_F2C-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="O88mnx28sJoSBirv_F2C-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="O88mnx28sJoSBirv_F2C-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="69" y="60" width="690" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="O2kdx0yKMvYgpr8YUL7c" name="вариант 2 задание 6">
-    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lkudUAOqQoyujNQaPKHV-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="lkudUAOqQoyujNQaPKHV-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lkudUAOqQoyujNQaPKHV-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="lkudUAOqQoyujNQaPKHV-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="69" y="60" width="690" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="kimjN5tcLMixvaz6CbK1" name="вариант 2 задание 1">
-    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KFXeiL7X37R1GK6ac4Xh-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="KFXeiL7X37R1GK6ac4Xh-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KFXeiL7X37R1GK6ac4Xh-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="KFXeiL7X37R1GK6ac4Xh-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="69" y="60" width="690" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="WON-PuilGtSLA1Fq-xgr" name="вариант 2 задание 2">
-    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="y1XyC4d-LfJ18kkVxtYg-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="y1XyC4d-LfJ18kkVxtYg-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="y1XyC4d-LfJ18kkVxtYg-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="y1XyC4d-LfJ18kkVxtYg-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="69" y="60" width="690" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="LWPJ6wnNemNwPziQLJvJ" name="вариант 2 задание 3">
-    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iviezEUl6ivOvZb9DjRM-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="iviezEUl6ivOvZb9DjRM-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Пирогов Денис 2 ИСП&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iviezEUl6ivOvZb9DjRM-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="iviezEUl6ivOvZb9DjRM-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;№4&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Дано целое число M (&amp;gt; 0). Найти сумму M^&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 2)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ (M + 9)^3&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ... + (M + N^&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;N - 1&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;^3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="69" y="60" width="690" height="50" as="geometry" />
         </mxCell>
       </root>
