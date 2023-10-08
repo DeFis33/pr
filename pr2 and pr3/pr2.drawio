@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T20:49:23.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0 (Edition Yx GX)" etag="lKXZDRt7S6qSWT6iSxhv" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-08T20:50:56.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0 (Edition Yx GX)" etag="TN3OKtYtqRzKsf2ZljvV" version="22.0.4" type="github" pages="7">
   <diagram id="25a4Gw_Xow15lP0rrwtX" name="вариант 2 задание 2 (+)">
     <mxGraphModel dx="1009" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -347,7 +347,7 @@
         <mxCell id="4wRtgBaWflfNclztEeSh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8D-191VMUuFrYzQcduM-13" target="4wRtgBaWflfNclztEeSh-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d8D-191VMUuFrYzQcduM-13" value="c = b * a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d8D-191VMUuFrYzQcduM-13" value="c = i * a" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e4QhRxVoZkFq3xJb5Wjj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8D-191VMUuFrYzQcduM-14" target="e4QhRxVoZkFq3xJb5Wjj-2">
@@ -360,7 +360,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="d8D-191VMUuFrYzQcduM-14" value="b = b + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d8D-191VMUuFrYzQcduM-14" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="625" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d8D-191VMUuFrYzQcduM-17" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;" vertex="1" parent="1">
