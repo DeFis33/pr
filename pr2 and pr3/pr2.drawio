@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T21:08:52.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0 (Edition Yx GX)" etag="vnn2uHk8kdJhJN0G-DBN" version="22.0.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-10-08T21:09:05.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0 (Edition Yx GX)" etag="eHOjZlkIEvIrbgDESD94" version="22.0.4" type="github" pages="7">
   <diagram id="25a4Gw_Xow15lP0rrwtX" name="вариант 2 задание 2 (+)">
     <mxGraphModel dx="693" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
         <mxCell id="lNwp2298N8JSXcvOW8e_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lNwp2298N8JSXcvOW8e_-1" target="lNwp2298N8JSXcvOW8e_-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lNwp2298N8JSXcvOW8e_-1" value="a = M+ i^i" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="lNwp2298N8JSXcvOW8e_-1" value="a = M + i^i" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="565" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lNwp2298N8JSXcvOW8e_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lNwp2298N8JSXcvOW8e_-5" target="lNwp2298N8JSXcvOW8e_-6" edge="1">
