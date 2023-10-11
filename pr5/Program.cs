@@ -40,6 +40,7 @@ namespace pr5
             // иначе
             else Console.WriteLine("Билет не является счастливым.");
 
+            Console.WriteLine("До свидания!");
             Console.ReadKey();
         }
     }
