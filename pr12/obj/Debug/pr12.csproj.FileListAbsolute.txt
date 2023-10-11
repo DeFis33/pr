@@ -1,0 +1,8 @@
+D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr12\bin\Debug\pr12.exe.config
+D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr12\bin\Debug\pr12.exe
+D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr12\bin\Debug\pr12.pdb
+D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr12\obj\Debug\pr12.csproj.AssemblyReference.cache
+D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr12\obj\Debug\pr12.csproj.SuggestedBindingRedirects.cache
+D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr12\obj\Debug\pr12.csproj.CoreCompileInputs.cache
+D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr12\obj\Debug\pr12.exe
+D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr12\obj\Debug\pr12.pdb
