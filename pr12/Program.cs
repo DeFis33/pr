@@ -16,8 +16,7 @@ namespace pr12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Практическая работа №12");
-            Console.WriteLine("Здравствуйте!");
+            Console.WriteLine("Практическая работа №12 \n Здравствуйте!");
 
             try
             {
@@ -31,9 +30,15 @@ namespace pr12
                 System.String b = Console.ReadLine();
 
             }
+            catch (Exception ex)
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+                Console.WriteLine("Ошибка ввода данных!" + ex.Message);
+            }
             Console.ReadKey();
         }
     }
 }
 // Contains: определяет, содержится ли подстрока в строке
 // Replace: замещает в строке символ или подстроку другим символом или подстрокой
+// включить программу в блок обработки ошибок
