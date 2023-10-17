@@ -18,21 +18,27 @@ namespace pr7
         {
             Console.WriteLine("Практическая работа №7");
             Console.WriteLine("Здравствуйте!");
-            Console.WriteLine("Введите количество чисел: "); // вводим значение N
 
-            try
+            while (true)
             {
+                Console.WriteLine("Введите количество чисел (для завершения введите 0): ");// вводим значение N
                 try
                 {
-                    int N = Convert.ToInt32(Console.ReadLine());
+                    try
+                    {
+                        int N = Convert.ToInt32(Console.ReadLine());
 
-                    if (N <= 0)
-                    {
-                        Console.ReadLine();
-                        Console.WriteLine("Пожалуйста, введите положительное целое число.");
-                    }
-                    else
-                    {
+                        if (N == 0)
+                        {
+                            Console.WriteLine("Программа завершена.");
+                            break;
+                        }
+                        else if (N < 0)
+                        {
+                            Console.WriteLine("Пожалуйста, введите положительное целое число.");
+                            continue;
+                        }
+
                         int a = 0; // переменная для хранения суммы квадратов чисел
                         for (int i = 0; i < N; i++)
                         {
@@ -41,26 +47,24 @@ namespace pr7
                             a += num * num;
                         }
 
-                        if (N > 0) // Проверка на N > 0, чтобы избежать деления на 0
-                        {
-                            double b = Math.Sqrt(a / N); // вычисляем среднее квадратическое
-                            Console.WriteLine($"Среднее квадратическое N чисел: {b}");
-                        }
+                        double b = Math.Sqrt(a / N); // вычисляем среднее квадратическое
+                        Console.WriteLine($"Среднее квадратическое N чисел: {b}");
+                    }
+                    catch (FormatException fe)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Ошибка ввода \n" + fe.Message);
+                        Console.ForegroundColor = ConsoleColor.Gray;
                     }
                 }
-                catch (FormatException fe)
+                catch (Exception e)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Ошибка ввода \n" + fe.Message);
+                    Console.WriteLine($"Ошибка ввода \n" + e.Message);
                     Console.ForegroundColor = ConsoleColor.Gray;
                 }
             }
-            catch (Exception e)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"Ошибка ввода \n" + e.Message);
-                Console.ForegroundColor = ConsoleColor.Gray;
-            }
+            
             Console.WriteLine("До свидания!");
             Console.ReadKey();
         }
