@@ -27,6 +27,7 @@ namespace pr7
                     {
                         Console.WriteLine("Введите количество чисел (для завершения введите 0): "); // вводим значение N
                         int N = Convert.ToInt32(Console.ReadLine());
+                        int a = 0; // переменная для хранения суммы квадратов чисел
 
                         if (N == 0) // если N = 0, то завершаем программу
                         {
@@ -36,36 +37,33 @@ namespace pr7
                         else if (N < 0) // если N < 0, то просим пользователя ввести положительное число
                         {
                             Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.WriteLine("Пожалуйста, введите положительное целое число.");
+                            Console.WriteLine("Пожалуйста, введите положительное целое число."); 
                             Console.ForegroundColor = ConsoleColor.White;
                             continue;
                         }
 
-                        int a = 0;
                         for (int i = 0; i < N; i++)
                         {
                             Console.Write($"Введите число {i + 1}: ");
-                            int number = Convert.ToInt32(Console.ReadLine());
-                            // нужно сохранить каждое введённое число пользователя, для вычисления квадрата расстояния... (2 этап)
-                            a += number; 
+                            int num = Convert.ToInt32(Console.ReadLine());
+                            a += num * num;
                         }
-                        int c = a / N; // вычисляем среднее арифметическое (1 этап)
-
-                        //double b = Math.Sqrt(a / N); заменить a на другую переменнную, т.к. она занята (3 этап)
-                        Console.WriteLine($"Среднее квадратическое N чисел: {b}");
-
+                        double b = Math.Sqrt(a / N); // вычисляем среднее квадратическое
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"Среднее квадратическое N чисел: {b}"); // вывод среднего квадратического на экран
+                        Console.ForegroundColor = ConsoleColor.White;
                     }
                     catch (FormatException fe) // частное исключение
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine($"Ошибка ввода \n" + fe.Message);
+                        Console.WriteLine($"Ошибка ввода \n" + fe.Message); // вывод ошибки на экран
                         Console.ForegroundColor = ConsoleColor.White;
                     }
                 }
                 catch (Exception e) // общее исключение
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Ошибка ввода \n" + e.Message);
+                    Console.WriteLine($"Ошибка ввода \n" + e.Message); // вывод ошибки на экран
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
