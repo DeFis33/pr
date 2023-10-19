@@ -1,4 +1,4 @@
-﻿//***************************************************************
+//***************************************************************
 //* Практическая работа № 8                                     *
 //* Выполнил: Пирогов Д., группа 2ИСП                           *
 //* Задание: составить программу циклической структуры          *
@@ -16,26 +16,39 @@ namespace pr8
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Практическая работа №8. \n Здравствуйте! ");
-            int a = -5, b = 5;
-            
-            try
-            {
-                do
-                {
 
-                }
-                while ();
-            }
-            catch (Exception ex)
+            while (true)
             {
-                Console.BackgroundColor = ConsoleColor.Red;
-                Console.Write("Что-то пошло не так. Ошибка: " + ex.Message);
+                try
+                {
+                    try
+                    {
+                        Console.WriteLine("... (для завершения введите 0): ");
+                        int a = Convert.ToInt32(Console.ReadLine());
+
+                        if (a == 0) // если a = 0, то завершаем программу
+                        {
+                            Console.WriteLine("Программа завершена.");
+                            break;
+                        }
+                    }
+                    catch (FormatException fe) // частное исключение
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Ошибка ввода \n" + fe.Message); // вывод ошибки на экран
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+                }
+                catch (Exception e) // общее исключение
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"Ошибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
             }
             Console.ReadKey();
         }
     }
 }
-// предусмотреть многократное выполнение программы без повторного запуска
-// доработать программу алгоритма с помощью кода обработки ошибок времение выполнения
-// (использовать как базовый класс для исключений, так и производные от него)
