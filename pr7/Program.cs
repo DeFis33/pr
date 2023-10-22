@@ -65,7 +65,6 @@ namespace pr7
                 }
             }
             Console.WriteLine("До свидания!");
-            Console.ReadKey();
         }
     }
 }
