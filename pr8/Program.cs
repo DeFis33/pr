@@ -17,13 +17,13 @@ namespace pr8
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Практическая работа №8. \nЗдравствуйте! ");
+            Console.WriteLine("Практическая работа №8.\nЗдравствуйте!");
 
             while (true)
             {
                 try
                 {
-                    Console.WriteLine("Введите любую цифру, чтобы увидеть таблицу значений функции y=5-x^2/2 на отрезке [-5; 5] с шагом 0,5. \n(для завершения введите 0): ");
+                    Console.WriteLine("\nВведите любую цифру, чтобы увидеть таблицу значений функции y=5-x^2/2 на отрезке [-5; 5] с шагом 0,5\n(для завершения введите 0):");
                     int a = Convert.ToInt32(Console.ReadLine());
 
                     if (a == 0) // если a = 0, то завершаем программу
