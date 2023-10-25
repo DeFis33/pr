@@ -1,8 +1,0 @@
-D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr16\bin\Debug\pr16.exe.config
-D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr16\bin\Debug\pr16.exe
-D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr16\bin\Debug\pr16.pdb
-D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr16\obj\Debug\pr16.csproj.AssemblyReference.cache
-D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr16\obj\Debug\pr16.csproj.SuggestedBindingRedirects.cache
-D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr16\obj\Debug\pr16.csproj.CoreCompileInputs.cache
-D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr16\obj\Debug\pr16.exe
-D:\Users\1213-5\Documents\2-ИСП\Дисциплина\Основы программирования\Фамилия\Пирогов Д\pr16\obj\Debug\pr16.pdb
