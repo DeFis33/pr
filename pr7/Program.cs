@@ -17,13 +17,13 @@ namespace pr7
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Практическая работа №7 \nЗдравствуйте!");
+            Console.WriteLine("Практическая работа №7 \nЗдравствуйте!\n");
 
             while (true)
             {
                 try
                 {
-                    Console.WriteLine("Введите количество чисел (для завершения введите 0): "); // вводим значение N
+                    Console.WriteLine("\nВведите количество чисел (для завершения введите 0): "); // вводим значение N
                     int N = Convert.ToInt32(Console.ReadLine());
                     int a = 0; // переменная для хранения суммы квадратов чисел
 
@@ -48,7 +48,7 @@ namespace pr7
                     }
                     double b = Math.Sqrt(a / N); // вычисляем среднее квадратическое
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine($"Среднее квадратическое N чисел: {b}"); // вывод среднего квадратического на экран
+                    Console.WriteLine($"\nСреднее квадратическое N чисел: {b}"); // вывод среднего квадратического на экран
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 catch (FormatException e) // частное исключение
