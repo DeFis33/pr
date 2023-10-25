@@ -32,7 +32,7 @@ namespace pr8
                         break;
                     }
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("    x |     y");
+                    Console.WriteLine("    x |      y");
                     Console.WriteLine("----------------");
                     Console.ForegroundColor = ConsoleColor.White;
 
