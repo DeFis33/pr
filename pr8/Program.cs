@@ -25,10 +25,11 @@ namespace pr8
                 {
                     Console.WriteLine("\nВведите любую цифру, чтобы увидеть таблицу значений функции y=5-x^2/2 на отрезке [-5; 5] с шагом 0,5\n(для завершения введите 0):");
                     int a = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("");
 
                     if (a == 0) // если a = 0, то завершаем программу
                     {
-                        Console.WriteLine("Программа завершена.");
+                        Console.WriteLine("Программа завершена.\nДо свидания!");
                         break;
                     }
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -60,7 +61,7 @@ namespace pr8
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
-            Console.WriteLine("До свидания!");
+            Console.ReadKey();
         }
     }
 }
