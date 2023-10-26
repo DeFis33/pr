@@ -14,7 +14,7 @@ namespace pr10
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Практическая работа №10.\nЗдравствуйте!\n");
+            Console.WriteLine("Практическая работа №10.\nЗдравствуйте!");
 
             while (true)
             {
@@ -25,7 +25,7 @@ namespace pr10
                     int[,] matrix = new int[M, N]; // объявление и инициализация двумерного массива
                     int product = 1; // product - хранение произведения ненулевых элементов матрицы
 
-                    Console.WriteLine("Хотите ли вы сами ввести элементы матрицы? (Да/Нет).\nЛибо введите команду (Выход), которая завершит работу программы:");
+                    Console.WriteLine("\nХотите ли вы сами ввести элементы матрицы? (Да/Нет).\nЛибо введите команду (Выход), которая завершит работу программы:");
                     string a = Console.ReadLine();
                     Console.WriteLine("");
 
@@ -52,7 +52,7 @@ namespace pr10
                             Console.WriteLine();
                         }
                     }
-                    else if (a == "Нет") // иначе
+                    else if (a == "Нет") // иначе, если
                     {
                         for (int i = 0; i < M; i++)
                         {
@@ -61,7 +61,6 @@ namespace pr10
                                 matrix[i, j] = rnd.Next(-100, 101); // генерация неповторяющихся значений
                                 Console.ForegroundColor = ConsoleColor.Green;
                                 Console.Write(matrix[i, j] + "\t");
-                                Console.ForegroundColor = ConsoleColor.White;
                                 if (matrix[i, j] != 0)
                                 {
                                     product *= matrix[i, j];
@@ -70,7 +69,7 @@ namespace pr10
                             Console.WriteLine();
                         }
                     }
-                    else
+                    else // иначе
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.WriteLine("Введите Да или Нет!");
@@ -80,18 +79,17 @@ namespace pr10
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.WriteLine("\nПроизведение ненулевых элементов: " + product);
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine("");
                 }
                 catch (FormatException e) // частное исключение
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Ошибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 catch (Exception e) // общее исключение
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Ошибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
@@ -99,3 +97,4 @@ namespace pr10
         }
     }
 }
+// поправить Да,Нет,Выход регистр
