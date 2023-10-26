@@ -25,11 +25,12 @@ namespace pr7
                 {
                     Console.WriteLine("\nВведите количество чисел (для завершения введите 0): "); // вводим значение N
                     int N = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("");
                     int a = 0; // переменная для хранения суммы квадратов чисел
 
                     if (N == 0) // если N = 0, то завершаем программу
                     {
-                        Console.WriteLine("\nПрограмма завершена.\nДо свидания!");
+                        Console.WriteLine("Программа завершена.\nДо свидания!");
                         break;
                     }
                     else if (N < 0) // если N < 0, то просим пользователя ввести положительное число
@@ -39,7 +40,6 @@ namespace pr7
                         Console.ForegroundColor = ConsoleColor.White;
                         continue;
                     }
-
                     for (int i = 0; i < N; i++)
                     {
                         Console.Write($"Введите число {i + 1}: ");
@@ -54,13 +54,13 @@ namespace pr7
                 catch (FormatException e) // частное исключение
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Ошибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 catch (Exception e) // общее исключение
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Ошибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
