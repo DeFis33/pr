@@ -17,7 +17,7 @@ namespace pr7
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Практическая работа №7 \nЗдравствуйте!\n");
+            Console.WriteLine("Практическая работа №7 \nЗдравствуйте!");
 
             while (true)
             {
@@ -29,7 +29,7 @@ namespace pr7
 
                     if (N == 0) // если N = 0, то завершаем программу
                     {
-                        Console.WriteLine("Программа завершена.");
+                        Console.WriteLine("\nПрограмма завершена.\nДо свидания!");
                         break;
                     }
                     else if (N < 0) // если N < 0, то просим пользователя ввести положительное число
@@ -64,7 +64,7 @@ namespace pr7
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
-            Console.WriteLine("До свидания!");
+            Console.ReadKey();
         }
     }
 }
