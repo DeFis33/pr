@@ -35,7 +35,7 @@ namespace pr10
                     }
                     if (a == "Да") // если пользователь хочет сам ввести элементы матрицы, то
                     {
-                        Console.WriteLine("Введите элементы матрицы:");
+                        Console.WriteLine("Введите элементы матрицы: ");
                         for (int i = 0; i < M; i++) // ввод по строкам
                         {
                             for (int j = 0; j < N; j++) // ввод по столбцам
@@ -71,12 +71,12 @@ namespace pr10
                     else // иначе
                     {
                         Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.WriteLine("Введите Да или Нет!");
+                        Console.WriteLine("Введите Да или Нет! Либо Выход. (Ввод ответа требуется с большой буквы)");
                         Console.ForegroundColor = ConsoleColor.White;
                         continue;
                     }
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
-                    Console.WriteLine("\nПроизведение ненулевых элементов: " + product);
+                    Console.WriteLine("Произведение ненулевых элементов: " + product);
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 catch (FormatException e) // частное исключение
@@ -96,4 +96,3 @@ namespace pr10
         }
     }
 }
-// поправить Да,Нет,Выход регистр
