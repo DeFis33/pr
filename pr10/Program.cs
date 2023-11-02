@@ -26,7 +26,6 @@ namespace pr10
 
                     Console.WriteLine("\nХотите ли вы сами ввести элементы матрицы? (Да/Нет).\nЛибо введите команду (Выход), которая завершит работу программы:");
                     string a = Console.ReadLine();
-                    Console.WriteLine("");
 
                     if (a == "Выход")
                     {
