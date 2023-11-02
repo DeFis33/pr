@@ -60,7 +60,6 @@ namespace pr8
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
-            Console.ReadKey();
         }
     }
 }
