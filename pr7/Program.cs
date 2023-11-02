@@ -59,7 +59,6 @@ namespace pr7
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
-            Console.ReadKey();
         }
     }
 }
