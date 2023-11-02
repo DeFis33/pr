@@ -34,7 +34,7 @@ namespace pr11
                         char symbol = char.Parse(Console.ReadLine());
                         int i = 0;
 
-                        foreach (char c in S) //
+                        foreach (char c in S) // выполнение операторов для каждого элемента в экземпляре типа
                         {
                             if (c == symbol) // если c равен symbol, то
                             {
