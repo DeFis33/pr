@@ -91,7 +91,6 @@ namespace pr10
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             }
-            Console.ReadKey();
         }
     }
 }
