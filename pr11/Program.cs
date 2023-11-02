@@ -1,4 +1,4 @@
-﻿//***************************************************************
+//***************************************************************
 //* Практическая работа № 11                                    *
 //* Выполнил: Пирогов Д., группа 2ИСП                           *
 //* Задание: разработать программу алгоритма решения задачи     *
@@ -12,32 +12,53 @@ namespace pr11
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Здравствуйте!\nПрактическая работа №11");
-            try
+            while (true)
             {
-                string S = null, S1 = null;
-                int index = 0;
-                char[] new_str = new char[100]; // массив символов для вывода слов
-                Console.WriteLine("Введите, пожалуйста, предложение: ");
-                S = Console.ReadLine();
-                Console.WriteLine("Введите, пожалуйста, символ, который хотите подсчитать в строке: ");
-                S1 = Console.ReadLine();
-                bool a = S.Contains(S1);
-                
+                try
+                {
+                    Console.WriteLine("\nВведите любую цифру, чтобы запустить программу для подсчёта количества символов x в строке (для выхода введите 0): ");
+                    int N = Convert.ToInt32(Console.ReadLine());
+
+                    if (N == 0) // если N = 0, то завершаем программу
+                    {
+                        Console.WriteLine("Программа завершена.\nДо свидания!");
+                        break;
+                    }
+                    else // иначе
+                    {
+                        Console.Write("\nВведите строку: ");
+                        string S = Console.ReadLine();
+                        Console.Write("\nВведите символ для подсчета: ");
+                        char symbol = char.Parse(Console.ReadLine());
+                        int i = 0;
+
+                        foreach (char c in S) //
+                        {
+                            if (c == symbol) // если c равен symbol, то
+                            {
+                                i++;
+                            }
+                        }
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine($"\nКоличество символов '{symbol}' в строке: {i}");
+                        Console.ForegroundColor = ConsoleColor.White;
+                    }
+                }
+                catch (FormatException e) // частное исключение
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                catch (Exception e) // общее исключение
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
             }
-            catch (FormatException e) // частное исключение
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
-                Console.ForegroundColor = ConsoleColor.Gray;
-            }
-            catch (Exception e) // общее исключение
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
-                Console.ForegroundColor = ConsoleColor.Gray;
-            }
-            Console.ReadKey();
         }
     }
 }
