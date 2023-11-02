@@ -10,7 +10,7 @@ namespace pr12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Практическая работа №12 \n Здравствуйте!");
+            Console.WriteLine("Практическая работа №12 \nЗдравствуйте!");
 
             try
             {
