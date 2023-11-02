@@ -21,7 +21,6 @@ namespace pr7
                 {
                     Console.WriteLine("\nВведите количество чисел (для завершения введите 0): "); // вводим значение N
                     int N = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("");
                     int a = 0; // переменная для хранения суммы квадратов чисел
 
                     if (N == 0) // если N = 0, то завершаем программу
