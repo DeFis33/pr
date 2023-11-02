@@ -19,22 +19,25 @@ namespace pr8
             {
                 try
                 {
-                    Console.WriteLine("\nВведите любую цифру, чтобы увидеть таблицу значений функции y=5-x^2/2 на отрезке [-5; 5] с шагом 0,5\n(для завершения введите 0):");
+                    Console.WriteLine("\nВведите любое число, если хотите увидеть таблицу значений функции (для завершения введите 0):");
                     int a = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("");
 
                     if (a == 0) // если a = 0, то завершаем программу
                     {
                         Console.WriteLine("Программа завершена.\nДо свидания!");
                         break;
                     }
+                    Console.WriteLine("Введите пределы отрезка.");
+                    Console.Write("От:");
+                    double x = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("До:");
+                    double end = Convert.ToInt32(Console.ReadLine());
+                    double step = 0.5;
+
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("    x |      y");
                     Console.WriteLine("----------------");
                     Console.ForegroundColor = ConsoleColor.White;
-
-                    double x = -5, end = 5, step = 0.5;
-
                     do
                     {
                         double y = 5 - Math.Pow(x, 2) / 2; // вычисление значения функции для текущего значения x
