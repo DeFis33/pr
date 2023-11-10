@@ -13,6 +13,7 @@ namespace pr16
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.White;
             string filepath;
             Console.WriteLine("Практическая работа №17.\n\nЗдравствуйте!");
             Console.WriteLine("Введите путь к сохранённому файлу и укажите имя файла, \n\tнапример: D:\\Users\\1213-5\\Documents\\2-ИСП\\Дисциплина\\Основы программирования\\Фамилия\\Пирогов Д\\pr16\\pr16.txt");
