@@ -1,4 +1,10 @@
-﻿using System;
+//*********************************************************************
+//* Практическая работа № 12                                          *
+//* Выполнил: Пирогов Д., группа 2ИСП                                 *
+//* Задание: изучить методы создания собственных функций с помощью C# *
+//*********************************************************************
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,29 +16,42 @@ namespace pr12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Практическая работа №12 \nЗдравствуйте!");
-
-            try
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Практическая работа №12 \n Здравствуйте!");
+            while (true)
             {
-                Console.Write("Введите предложение: ");
-                System.String predl = Console.ReadLine();
-                
-                Console.Write("Введите три буквы, которые вы хотели бы заменить: ");
-                System.String a = Console.ReadLine();
-                
-                Console.Write("Введите три буквы, которые вы хотели бы использовать для замены: ");
-                System.String b = Console.ReadLine();
+                try
+                {
+                    Console.WriteLine("\nВведите любую цифру, чтобы запустить программу для нахождения подстроки из трёх букв, введённых с клавиатуры в исходной строке и замены на другую, также состоящую из трёх букв. (для выхода введите 0): ");
+                    int N = Convert.ToInt32(Console.ReadLine());
 
+                    if (N == 0) // если N = 0, то завершаем программу
+                    {
+                        Console.WriteLine("Программа завершена.\nДо свидания!");
+                        break;
+                    }
+                    else // иначе
+                    {
+                        Console.Write("\nВведите строку: ");
+                        string S = Console.ReadLine();
+
+                    }
+                }
+                catch (FormatException e) // частное исключение
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+                catch (Exception e) // общее исключение
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine($"\nОшибка ввода \n" + e.Message); // вывод ошибки на экран
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.ReadKey();
+                }
+                Console.ReadKey();
             }
-            catch (Exception ex)
-            {
-                Console.BackgroundColor = ConsoleColor.Red;
-                Console.WriteLine("Ошибка ввода данных!" + ex.Message);
-            }
-            Console.ReadKey();
         }
     }
 }
-// Contains: определяет, содержится ли подстрока в строке
-// Replace: замещает в строке символ или подстроку другим символом или подстрокой
-// включить программу в блок обработки ошибок
